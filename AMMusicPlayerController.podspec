@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
 
   s.source_files = "AMMusicPlayerController/*.{swift,h,storyboard}"
   s.resource = "AMMusicPlayerController/Media.xcassets"
-  s.dependency "RxMusicPlayer"
+  s.dependency "RxMusicPlayer", "1.0.0"
   s.dependency "SPStorkController"
 end
